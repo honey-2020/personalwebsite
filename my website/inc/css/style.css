@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Roboto', 'Asap', sans-serif;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(133.84deg, #90BBEF -11.8%, #AC57AB 14.17%, #01429E 129.37%, rgba(0, 0, 0, 0) 130.56%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+header .header-banner {
+  padding: 40px;
+  width: 50%;
+}
+
+header .header-banner .header-banner-text {
+  margin: 100px 0 0 80px;
+}
+
+header .header-banner .header-banner-text p {
+  font-size: 57px;
+  color: white;
+}
+
+header .header-banner .header-banner-text .journey {
+  color: #1a1a1a;
+}
+
+header nav {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+}
+
+header nav .grid-item {
+  padding: 80px;
+}
+
+header nav .grid-item a {
+  color: white;
+  font-size: 47px;
+}
+
+header nav .one {
+  background-color: #333333;
+}
+
+header nav .two {
+  background-color: #4d4d4d;
+}
+
+header nav .three {
+  background-color: #1a1a1a;
+}
+
+section.about-me {
+  padding: 40px;
+  display: -ms-grid;
+  display: grid;
+  gap: 80px;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.about-me .img img {
+  max-width: 350px;
+}
+
+section.about-me .about-me-p p {
+  text-align: justify;
+  font-size: 20px;
+}
+
+section.about-me .about-me-p .about-me-title {
+  margin: 0 0 20px 0;
+  background-color: #1a1a1a;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white;
+  padding: 0 10px 0 10px;
+}
+
+section.about-me .about-me-p .about-me-title h2 {
+  font-family: 'Asap', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+section.my-service {
+  margin-bottom: 40px;
+}
+
+section.my-service .my-service-title {
+  margin: 0 40px 20px 40px;
+  background-color: #1a1a1a;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white;
+  padding: 0 10px 0 10px;
+}
+
+section.my-service .my-service-title h2 {
+  font-family: 'Asap', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+}
+
+section.my-service .services {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  width: 100%;
+}
+
+section.my-service .services .service {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: linear-gradient(133.84deg, #90BBEF -11.8%, #AC57AB 14.17%, #01429E 129.37%, rgba(0, 0, 0, 0) 130.56%);
+  height: 100%;
+}
+
+section.my-service .services .service .service-text {
+  padding: 0px 60px 0 60px;
+  color: white;
+}
+
+section.my-service .services .service .service-text h3 {
+  font-family: 'Asap', sans-serif;
+  font-size: 47px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100px;
+}
+
+section.my-service .services .service .service-text p {
+  text-align: justify;
+  font-size: 20px;
+}
+
+section.my-service .services .service .img-bcg-one {
+  background-image: url("../img/graphicwebdesigner.jpg");
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.my-service .services .service .img-bcg-two {
+  background-image: url("../img/webdeveloper.jpg");
+  width: 100%;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section.my-tools {
+  margin: 0 40px 40px 40px;
+}
+
+section.my-tools .my-tools-title {
+  background-color: #1a1a1a;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white;
+  padding: 0 10px 0 10px;
+}
+
+section.my-tools .my-tools-title h2 {
+  font-family: 'Asap', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+section.my-tools .my-tools-text {
+  font-size: 20px;
+  text-align: justify;
+}
+
+section.my-tools .tools {
+  margin-top: 40px;
+}
+
+section.my-tools .tools .icon-tools {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+  justify-items: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.my-tools .tools .icon-tools i {
+  font-size: 50px;
+  margin: 10px;
+}
+
+section.my-tools .tools .icon-tools i:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all ease-in 0.3s;
+  transition: all ease-in 0.3s;
+  color: #3349A2;
+}
+
+section.my-tools .tools .icon-tools p {
+  font-size: 18px;
+}
+
+.btn-container {
+  padding: 20px 40px 60px 40px;
+  width: 100%;
+  text-align: center;
+}
+
+.btn-container .button {
+  color: white;
+  background-color: #1a1a1a;
+  border: 2px solid #1a1a1a;
+  padding: 15px 30px;
+  font-family: 'Asap', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.btn-container .button:hover {
+  color: #1a1a1a;
+  background-color: #fff;
+  border: 2px solid #333333;
+  -webkit-transition: all ease-in 0.3s;
+  transition: all ease-in 0.3s;
+}
+
+.contact-me {
+  width: 100%;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-family: 'Asap', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.contact-me a {
+  color: #1a1a1a;
+  background-color: white;
+  padding: 15px 30px;
+}
+
+.contact-me p {
+  font-size: 25px;
+  font-family: 'Asap', sans-serif;
+}
+
+footer {
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: black;
+  color: white;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer p {
+  padding: 10px;
+}
+
+footer .socials a {
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+}
+/*# sourceMappingURL=style.css.map */
