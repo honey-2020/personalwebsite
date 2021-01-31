@@ -269,7 +269,7 @@ section.my-tools .tools .icon-tools p {
 
 .btn-container .button:hover {
   color: #1a1a1a;
-  background-color: #fff;
+  background-color: white;
   border: 2px solid #333333;
   -webkit-transition: all ease-in 0.3s;
   transition: all ease-in 0.3s;
@@ -336,5 +336,31 @@ footer .socials a {
   color: white;
   padding: 10px;
   font-size: 25px;
+}
+
+section.my-skills {
+  margin: 0 40px 40px 40px;
+}
+
+section.my-skills .my-skills-title {
+  background-color: #1a1a1a;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white;
+  padding: 0 10px 0 10px;
+}
+
+section.my-skills .my-skills-title h2 {
+  font-family: 'Asap', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+section.my-skills p {
+  font-size: 20px;
+  text-align: justify;
 }
 /*# sourceMappingURL=style.css.map */

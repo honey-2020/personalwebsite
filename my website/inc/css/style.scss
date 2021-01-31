@@ -20,7 +20,7 @@ header{
                 color: $white;
             }
             .journey{
-                color: #1a1a1a;
+                color: $dark-gray;
             }
         } 
     }
@@ -40,13 +40,13 @@ header{
            }
        }
         .one{
-           background-color: #333333; 
+           background-color: $light-gray; 
         }
         .two{
-            background-color: #4d4d4d; 
+            background-color: $medium-gray; 
         }
         .three{
-            background-color: #1a1a1a; 
+            background-color: $dark-gray; 
         }
             
     }
@@ -70,7 +70,7 @@ section.about-me{
     .about-me-p {
         .about-me-title{
             margin: 0 0 20px 0;
-            background-color: #1a1a1a;
+            background-color: $dark-gray;
             width: fit-content;
             color: $white;
             padding: 0 10px 0 10px;
@@ -88,7 +88,7 @@ section.my-service{
     margin-bottom: 40px;
     .my-service-title{
         margin: 0 40px 20px 40px;
-        background-color: #1a1a1a;
+        background-color: $dark-gray;
         width: fit-content;
         color: $white;
         padding: 0 10px 0 10px;
@@ -154,7 +154,7 @@ section.my-tools{
     margin: 0 40px 40px 40px;
     
         .my-tools-title{
-            background-color: #1a1a1a;
+            background-color: $dark-gray;
             width: fit-content;
             color: $white;
             padding: 0 10px 0 10px;
@@ -186,7 +186,7 @@ section.my-tools{
                     &:hover{
                         transform: scale(1.1);
                         transition: all ease-in 0.3s;
-                        color: #3349A2;
+                        color: $icons;
                     }
                 }
                 p{
@@ -203,16 +203,16 @@ section.my-tools{
     text-align: center;
     .button{
         color: $white;
-        background-color: #1a1a1a;
-        border: 2px solid #1a1a1a;
+        background-color: $dark-gray;
+        border: 2px solid $dark-gray;
         padding: 15px 30px;
         font-family: 'Asap', sans-serif;
         font-style: normal;
         font-weight: normal;
         &:hover{
-            color: #1a1a1a;
-            background-color: #fff;
-            border: 2px solid #333333;
+            color: $dark-gray;
+            background-color: $white;
+            border: 2px solid $light-gray;
             transition: all ease-in 0.3s;
         }
     }
@@ -229,11 +229,11 @@ section.my-tools{
     font-family: 'Asap', sans-serif;
     font-style: normal;
     font-weight: normal;
-    background-color: #1a1a1a;
+    background-color: $dark-gray;
     color: $white;
 
     a{
-        color: #1a1a1a;
+        color: $dark-gray;
         background-color: $white;
         padding: 15px 30px;
     }
@@ -261,5 +261,29 @@ footer{
             padding: 10px;
             font-size: 25px;
         }
+    }
+}
+
+// about me
+section.my-skills{
+    margin: 0 40px 40px 40px;
+    .my-skills-title{
+        background-color: $dark-gray;
+        width: fit-content;
+        color: $white;
+        padding: 0 10px 0 10px;
+
+        h2{
+            font-family: 'Asap', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+    
+    }
+    p{
+        font-size: 20px;
+        text-align: justify;
     }
 }
