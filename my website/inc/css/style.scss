@@ -343,7 +343,7 @@ section.contacts-container{
     }
 }
 
-// media-query
+// media-query 900px
 @media (max-width: 900px){
     header{
         height: 100vh;
@@ -402,6 +402,18 @@ section.contacts-container{
                         font-size: 1.25em;
                     }
                 }
+                .one, .two{
+                    width: 100%;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .one{
+                    background-image: url("../img/graphicwebdesigner.jpg");                    
+                }
+                .two{
+                    background-image: url("../img/webdeveloper.jpg");                    
+                }
                 .img-bcg-one, .img-bcg-two{
                     display: none;
                 }
@@ -409,10 +421,83 @@ section.contacts-container{
             }
         }
 
-
     }
 
     footer{
         padding: 100px 0 200px 0;
+    }
+}
+
+// media query 750 pixel
+
+@media (max-width: 750px){
+    // about me
+    section.about-me{
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+       
+        .about-me-p p{
+            font-size: 1.25em;
+        }
+        .about-me-p {
+            .about-me-title{
+                h2{
+                    font-size: 2em;
+                }
+            }
+        }
+    }
+    // tools
+    section.my-tools{   
+
+        .my-tools-title{    
+            h2{
+                font-size: 2em;
+            }
+        }
+        .tools{ 
+            .icon-tools{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+                i{
+                    font-size: 2.25em;
+                    margin: 10px;
+                &:hover{
+                    transform: none;
+                    transition: none;
+                    color: $dark-gray;
+                    }
+                }
+                p{
+                    font-size: 1.25em;
+                }
+
+                }
+            }    
+        }
+
+
+    // contacts avatariamoci
+    section.my-persona-container{
+        .my-persona-title{
+            h2{
+                font-size: 2em;
+            }
+        }
+    
+        .my-persona{
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            .my-persona-img img{
+                max-width: 350px;
+            }
+    
+            .my-persona-text{
+                font-size: 1.25em;
+            }
+        }
     }
 }

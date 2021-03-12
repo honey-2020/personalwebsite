@@ -495,11 +495,87 @@ section.contacts-container .contacts .contacts-social a {
   section.my-service .services .service .service-text p {
     font-size: 1.25em;
   }
+  section.my-service .services .service .one, section.my-service .services .service .two {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  section.my-service .services .service .one {
+    background-image: url("../img/graphicwebdesigner.jpg");
+  }
+  section.my-service .services .service .two {
+    background-image: url("../img/webdeveloper.jpg");
+  }
   section.my-service .services .service .img-bcg-one, section.my-service .services .service .img-bcg-two {
     display: none;
   }
   footer {
     padding: 100px 0 200px 0;
+  }
+}
+
+@media (max-width: 750px) {
+  section.about-me {
+    padding: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section.about-me .about-me-p p {
+    font-size: 1.25em;
+  }
+  section.about-me .about-me-p .about-me-title h2 {
+    font-size: 2em;
+  }
+  section.my-tools .my-tools-title h2 {
+    font-size: 2em;
+  }
+  section.my-tools .tools .icon-tools {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  section.my-tools .tools .icon-tools i {
+    font-size: 2.25em;
+    margin: 10px;
+  }
+  section.my-tools .tools .icon-tools i:hover {
+    -webkit-transform: none;
+            transform: none;
+    -webkit-transition: none;
+    transition: none;
+    color: #1a1a1a;
+  }
+  section.my-tools .tools .icon-tools p {
+    font-size: 1.25em;
+  }
+  section.my-persona-container .my-persona-title h2 {
+    font-size: 2em;
+  }
+  section.my-persona-container .my-persona {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section.my-persona-container .my-persona .my-persona-img img {
+    max-width: 350px;
+  }
+  section.my-persona-container .my-persona .my-persona-text {
+    font-size: 1.25em;
   }
 }
 /*# sourceMappingURL=style.css.map */
