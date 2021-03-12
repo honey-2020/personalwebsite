@@ -343,8 +343,77 @@ section.contacts-container{
     }
 }
 
+// portfolio
+section.portfolio-grid{
+    padding: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    color: $white;
+    font-size: 1em;
+
+    .portfolio-item{
+
+        height: 350px;
+        padding: 2em;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../img/webdeveloper.jpg"); 
+        .portfolio-item-socials{
+            a{
+                color: $white;
+            }
+        }
+        a.button-progetti{
+            color: $white;
+            background-color: $dark-gray;
+            padding: 15px 30px;
+            font-family: 'Asap', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1em;
+            &:hover{
+                color: $dark-gray;
+                background-color: $white;
+                transition: all ease-in 0.3s;
+            }
+        }
+        // margin portfolio-items
+        h3, p, a.button-progetti, .portfolio-item-socials{
+            margin-bottom: 25px;
+        }
+    }
+
+    .one{
+        background-image: url("../img/winu.png"); 
+    }
+
+    .two{
+        background-image: url("../img/aidea.png");   
+    }
+    .three{
+        background-image: url("../img/bauscia.png");   
+    }
+    .four{
+        background-image: url("../img/mirrorvisitor.png");   
+    }
+    .five{
+        background-image: url("../img/casablu.png");   
+    }
+    .six{
+        background-image: url("../img/tizianotoia.png");  
+    }
+    .seven{
+        background-image: url("../img/homeschool.png");  
+    }
+}
+
 // media-query 900px
 @media (max-width: 900px){
+    // header
     header{
         height: 100vh;
         width: 100%;
@@ -394,7 +463,7 @@ section.contacts-container{
             }     
         }
     }
-    
+    // servizi
     section.my-service{
         .my-service-title{
                 h2{
@@ -439,10 +508,23 @@ section.contacts-container{
         }
 
     }
-
+    // footer
     footer{
         padding: 100px 0 200px 0;
     }
+
+    // portfolio
+    section.portfolio-grid{
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+        color: $white;
+        font-size: 1em;
+    }
+    
 }
 
 // media query 750 pixel
@@ -517,4 +599,5 @@ section.contacts-container{
             }
         }
     }
+    
 }
