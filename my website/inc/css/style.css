@@ -500,6 +500,10 @@ section.portfolio-grid .seven {
   background-image: url("../img/homeschool.png");
 }
 
+section.portfolio-grid .eight {
+  background-image: url("../img/valentinesday.png");
+}
+
 @media (max-width: 900px) {
   header {
     height: 100vh;
