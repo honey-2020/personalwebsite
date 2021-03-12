@@ -434,10 +434,26 @@ section.contacts-container .contacts .contacts-social a {
         -ms-flex-direction: row;
             flex-direction: row;
     position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/liam-briese-wB7V7mhufy4-unsplash.jpg");
   }
   header .header-banner {
     padding: 40px;
     width: 100%;
+  }
+  header .header-banner .header-banner-text {
+    margin: 100px 0 0 80px;
+  }
+  header .header-banner .header-banner-text p {
+    font-size: 57px;
+    color: white;
+  }
+  header .header-banner .header-banner-text .journey {
+    color: white;
+    font-weight: 600;
+    font-style: oblique;
   }
   header nav {
     position: fixed;

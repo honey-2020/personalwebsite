@@ -350,9 +350,26 @@ section.contacts-container{
         width: 100%;
         flex-direction: row;
         position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../img/liam-briese-wB7V7mhufy4-unsplash.jpg");  
+        
         .header-banner{
             padding: 40px;
             width: 100%;
+            .header-banner-text{
+                margin: 100px 0 0 80px;
+                p {
+                    font-size: 57px;
+                    color: $white;
+                }
+                .journey{
+                    color: $white;
+                    font-weight: 600;
+                    font-style: oblique;
+                }
+            } 
         }
         nav{
             position: fixed;
@@ -374,7 +391,7 @@ section.contacts-container{
             }
             #active{
                     background: linear-gradient(133.84deg, #90BBEF -11.8%, #AC57AB 14.17%, #01429E 129.37%, rgba(0, 0, 0, 0) 130.56%);
-                }     
+            }     
         }
     }
     
