@@ -504,6 +504,10 @@ section.portfolio-grid .eight {
   background-image: url("../img/valentinesday.png");
 }
 
+section.portfolio-grid .nine {
+  background-image: url("../img/icare.png");
+}
+
 @media (max-width: 900px) {
   header {
     height: 100vh;
