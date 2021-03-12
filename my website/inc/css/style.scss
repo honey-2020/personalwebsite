@@ -265,9 +265,8 @@ footer{
 }
 
 // about me
-section.my-skills{
-    margin: 0 40px 40px 40px;
-    .my-skills-title{
+section .my-persona-container{
+    .my-persona-title{
         background-color: $dark-gray;
         width: fit-content;
         color: $white;
@@ -280,10 +279,5 @@ section.my-skills{
             font-size: 25px;
             margin-bottom: 20px;
         }
-    
-    }
-    p{
-        font-size: 20px;
-        text-align: justify;
     }
 }
