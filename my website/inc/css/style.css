@@ -50,17 +50,22 @@ header nav {
   height: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 header nav .grid-item {
-  padding: 80px;
+  padding: 50px;
+  overflow: hidden;
 }
 
 header nav .grid-item a {
   color: white;
   font-size: 47px;
+}
+
+header nav .zero {
+  background-color: #6C6C6C;
 }
 
 header nav .one {
@@ -457,10 +462,44 @@ section.contacts-container .contacts .contacts-social a {
   }
   header nav .grid-item a {
     color: white;
-    font-size: 1em;
+    font-size: 1.25em;
+  }
+  header nav #active {
+    background: linear-gradient(133.84deg, #90BBEF -11.8%, #AC57AB 14.17%, #01429E 129.37%, rgba(0, 0, 0, 0) 130.56%);
+  }
+  section.my-service .my-service-title h2 {
+    font-size: 2em;
+  }
+  section.my-service .services {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section.my-service .services .service {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  section.my-service .services .service .service-text {
+    padding: 60px;
+    color: white;
+  }
+  section.my-service .services .service .service-text h3 {
+    font-size: 2em;
+    line-height: 2em;
+  }
+  section.my-service .services .service .service-text p {
+    font-size: 1.25em;
+  }
+  section.my-service .services .service .img-bcg-one, section.my-service .services .service .img-bcg-two {
+    display: none;
   }
   footer {
-    height: 250px;
+    padding: 100px 0 200px 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

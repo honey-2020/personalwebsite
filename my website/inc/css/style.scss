@@ -30,15 +30,19 @@ header{
         width: 50%;
         height: 100%;
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
 
        .grid-item{
-           padding: 80px;
+           padding: 50px;
+           overflow: hidden;
             a{
                color: $white;
                font-size: 47px;
            }
-       }
+        }
+        .zero{
+            background-color: $double-lightg;
+        }
         .one{
            background-color: $light-gray; 
         }
@@ -339,7 +343,7 @@ section.contacts-container{
     }
 }
 
-// media-query nav
+// media-query
 @media (max-width: 900px){
     header{
         height: 100vh;
@@ -365,13 +369,50 @@ section.contacts-container{
                 text-align: center;
                  a{
                     color: $white;
-                    font-size: 1em;
+                    font-size: 1.25em;
                 }
-            }      
+            }
+            #active{
+                    background: linear-gradient(133.84deg, #90BBEF -11.8%, #AC57AB 14.17%, #01429E 129.37%, rgba(0, 0, 0, 0) 130.56%);
+                }     
         }
+    }
+    
+    section.my-service{
+        .my-service-title{
+                h2{
+                    font-size: 2em;
+                }
+        }
+
+        .services{
+            display: flex;
+            flex-direction: column;
+            .service{
+                display: flex;
+                .service-text{
+                    padding: 60px;
+                    color: $white; 
+
+                    h3{
+                        font-size: 2em;
+                        line-height: 2em;
+                    }
+                    p{
+                        font-size: 1.25em;
+                    }
+                }
+                .img-bcg-one, .img-bcg-two{
+                    display: none;
+                }
+
+            }
+        }
+
+
     }
 
     footer{
-        height: 250px;
+        padding: 100px 0 200px 0;
     }
 }
