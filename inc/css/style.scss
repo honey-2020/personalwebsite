@@ -16,7 +16,7 @@ header{
         .header-banner-text{
             margin: 100px 0 0 80px;
             p {
-                font-size: 57px;
+                font-size: 3.5em;
                 color: $white;
             }
             .journey{
@@ -37,7 +37,7 @@ header{
            overflow: hidden;
             a{
                color: $white;
-               font-size: 47px;
+               font-size: 2em;
            }
         }
         .zero{
@@ -436,7 +436,7 @@ section.portfolio-grid{
             .header-banner-text{
                 margin: 100px 0 0 80px;
                 p {
-                    font-size: 57px;
+                    font-size: 2em;
                     color: $white;
                 }
                 .journey{
@@ -461,7 +461,7 @@ section.portfolio-grid{
                 text-align: center;
                  a{
                     color: $white;
-                    font-size: 1.25em;
+                    font-size: 1em;
                 }
             }
             #active{

@@ -35,7 +35,7 @@ header .header-banner .header-banner-text {
 }
 
 header .header-banner .header-banner-text p {
-  font-size: 57px;
+  font-size: 3.5em;
   color: white;
 }
 
@@ -61,7 +61,7 @@ header nav .grid-item {
 
 header nav .grid-item a {
   color: white;
-  font-size: 47px;
+  font-size: 2em;
 }
 
 header nav .zero {
@@ -530,7 +530,7 @@ section.portfolio-grid .nine {
     margin: 100px 0 0 80px;
   }
   header .header-banner .header-banner-text p {
-    font-size: 57px;
+    font-size: 2em;
     color: white;
   }
   header .header-banner .header-banner-text .journey {
@@ -561,7 +561,7 @@ section.portfolio-grid .nine {
   }
   header nav .grid-item a {
     color: white;
-    font-size: 1.25em;
+    font-size: 1em;
   }
   header nav #active {
     background: linear-gradient(133.84deg, #90BBEF -11.8%, #AC57AB 14.17%, #01429E 129.37%, rgba(0, 0, 0, 0) 130.56%);
